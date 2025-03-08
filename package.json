@@ -1,6 +1,6 @@
 {
   "name": "epubjs",
-  "version": "0.3.95",
+  "version": "0.3.93",
   "description": "Parse and Render Epubs",
   "main": "lib/index.js",
   "module": "src/index.js",
@@ -62,7 +62,7 @@
     "jszip": "^3.7.1",
     "localforage": "^1.10.0",
     "lodash": "^4.17.21",
-    "marks-pane": "github:studnotebook/markspane",
+    "marks-pane": "^1.0.9",
     "path-webpack": "0.0.3"
   }
 }
