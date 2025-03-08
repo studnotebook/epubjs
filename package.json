@@ -5,7 +5,6 @@
   "main": "lib/index.js",
   "module": "src/index.js",
   "types": "types/index.d.ts",
-  "type": "module",
   "repository": "https://github.com/futurepress/epub.js",
   "directories": {
     "test": "test"
