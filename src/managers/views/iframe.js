@@ -603,7 +603,7 @@ class IframeView {
 		return this.elementBounds;
 	}
 
-	highlight(cfiRange, data={}, cb, className = "epubjs-hl", styles = {}, attachment={}) {
+	highlight(cfiRange, data={}, cb, className = "epubjs-hl", styles = {}) {
 		if (!this.contents) {
 			return;
 		}
@@ -620,7 +620,7 @@ class IframeView {
 			this.pane = new Pane(this.iframe, this.element);
 		}
 
-		let m = new Highlight(range, className, data, attributes, attachment);
+		let m = new Highlight(range, className, data, attributes);
 		let h = this.pane.addMark(m);
 
 		this.highlights[cfiRange] = { "mark": h, "element": h.element, "listeners": [emitter, cb] };

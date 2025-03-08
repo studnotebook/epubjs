@@ -221,8 +221,7 @@ class Annotation {
 		sectionIndex,
 		cb,
 		className,
-		styles,
-		attachment
+		styles
 	}) {
 		this.type = type;
 		this.cfiRange = cfiRange;
@@ -232,7 +231,6 @@ class Annotation {
 		this.cb = cb;
 		this.className = className;
 		this.styles = styles;
-		this.attahment = attachment;
 	}
 
 	/**
