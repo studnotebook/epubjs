@@ -62,7 +62,7 @@
     "jszip": "^3.7.1",
     "localforage": "^1.10.0",
     "lodash": "^4.17.21",
-    "marks-pane": "git+https://github.com/studnotebook/markspane.git",
+    "marks-pane": "github:studnotebook/markspane",
     "path-webpack": "0.0.3"
   }
 }
