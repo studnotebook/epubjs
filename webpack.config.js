@@ -1,8 +1,8 @@
 var webpack = require("webpack");
 var path = require("path");
-var PROD = (process.env.NODE_ENV === "production")
-var LEGACY = (process.env.LEGACY)
-var MINIMIZE = (process.env.MINIMIZE === "true")
+var PROD = "production"
+var LEGACY = true
+var MINIMIZE = true
 var hostname = "localhost";
 var port = 8080;
 
@@ -20,7 +20,7 @@ if (MINIMIZE) {
 }
 
 module.exports = {
-	mode: process.env.NODE_ENV,
+	mode: PROD,
 	entry: {
 		"epub": "./src/epub.js",
 	},
